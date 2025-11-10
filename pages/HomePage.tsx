@@ -85,9 +85,14 @@ const HomePage: React.FC = () => {
                 <div className="relative z-10 text-center px-6">
                     <h1 className="text-5xl text-black md:text-7xl font-extrabold mb-4">Moniva <span className="text-[#F3A448]">Snap</span></h1>
                     <p className="text-lg md:text-2xl max-w-3xl mx-auto mb-8 text-[rgb(70,70,70)]">\Tailored Solution + (Marketing × Ultimate Speed <br />& Security) = <span className="text-[#171717;]">Constant Business Growth 🚀</span></p>
-                    <a href="#" className="bg-blue-600 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-blue-700 transition-transform hover:scale-105">
-                        Contact us
-                    </a>
+                    <a href="" className="flex justify-center">
+                        <p className="text-black underline text-left text-[18px] pr-[20px]">
+                            Tell us about your project &<br />get a custom quote
+                        </p>
+                        <div className="bg-black p-[20px] w-[66px] h-[66px] rounded-full">
+                            <img src="assets/white-arrow.png" alt="arrow" className="rotate-[135deg]"/>
+                        </div>
+                        </a>
                 </div>
             </section>
 
