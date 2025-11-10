@@ -11,7 +11,9 @@ const App: React.FC = () => {
   return (
     <HashRouter>
       <div className="bg-white text-brand-dark font-sans">
-        <Header />
+        <div className="flex justify-center w-full">
+            <Header />
+        </div>
         <main>
           <Routes>
             <Route path="/" element={<HomePage />} />

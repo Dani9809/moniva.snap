@@ -80,11 +80,11 @@ const HomePage: React.FC = () => {
     return (
         <>
             {/* Hero Section */}
-            <section className="relative h-screen flex items-center justify-center text-white bg-black">
-                <div className="absolute inset-0 bg-cover bg-center opacity-40" style={{ backgroundImage: "url('https://picsum.photos/seed/code/1920/1080')" }}></div>
+            <section className="relative h-screen flex items-center justify-center text-white">
+                <div className="absolute inset-0 bg-fill bg-center" style={{ backgroundImage: "url('assets/bg.png')" }}></div>
                 <div className="relative z-10 text-center px-6">
-                    <h1 className="text-5xl md:text-7xl font-extrabold mb-4">Moniva Snap</h1>
-                    <p className="text-lg md:text-2xl max-w-3xl mx-auto mb-8">A Dumaguete-based Web Developer Team building lightning-fast, modern websites for startups and small businesses.</p>
+                    <h1 className="text-5xl text-black md:text-7xl font-extrabold mb-4">Moniva <span className="text-[#F3A448]">Snap</span></h1>
+                    <p className="text-lg md:text-2xl max-w-3xl mx-auto mb-8 text-[rgb(70,70,70)]">\Tailored Solution + (Marketing × Ultimate Speed <br />& Security) = <span className="text-[#171717;]">Constant Business Growth 🚀</span></p>
                     <a href="#" className="bg-blue-600 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-blue-700 transition-transform hover:scale-105">
                         Contact us
                     </a>
