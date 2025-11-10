@@ -83,7 +83,7 @@ const HomePage: React.FC = () => {
             {/* Hero Section */}
             <section className="relative h-screen flex items-center justify-center text-white">
                 <div className="absolute inset-0 bg-fill bg-center" style={{ backgroundImage: "url('assets/bg.png')" }}></div>
-                <div className="relative z-10 text-center px-6">
+                <div className="relative z-10 text-center px-6 sm:pt-[40vh] md:pt-[60vh] lg:pt-[70vh]">
                     <h1 className="text-5xl text-black md:text-7xl font-extrabold mb-4">Moniva <span className="text-[#F3A448]">Snap</span></h1>
                     <p className="text-lg md:text-2xl max-w-3xl mx-auto mb-8 text-[rgb(70,70,70)]">\Tailored Solution + (Marketing × Ultimate Speed <br />& Security) = <span className="text-[#171717;]">Constant Business Growth 🚀</span></p>
                     <Link to="/contact" className="flex justify-center">
@@ -94,6 +94,9 @@ const HomePage: React.FC = () => {
                             <img src="assets/white-arrow.png" alt="arrow" className="rotate-[135deg]"/>
                         </div>
                     </Link>
+                    <div className="pt-[20px]">
+                        <img src="assets/codeSample.png" alt="vscode-sample" className="rounded-[30px] md:w-[85vw] lg:w-[75vw]" />
+                    </div>
                 </div>
             </section>
 

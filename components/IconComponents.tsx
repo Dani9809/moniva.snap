@@ -65,3 +65,10 @@ export const ChatBubbleLeftRightIcon: React.FC<IconProps> = ({ className = "w-10
         <path strokeLinecap="round" strokeLinejoin="round" d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193l-3.72-2.002a23.13 23.13 0 0 0-4.286 0l-3.72 2.002c-1.133-.093-1.98-1.057-1.98-2.193V10.608c0-.97.616-1.813 1.5-2.097m14.25 0a26.47 26.47 0 0 0-4.286 0M3.75 8.511a26.47 26.47 0 0 1 4.286 0M12 15.75h.008v.008H12v-.008Zm0-2.25h.008v.008H12v-.008Zm0-2.25h.008v.008H12V11.25Zm-2.25-1.5h.008v.008h-.008V9.75Zm-2.25 0h.008v.008h-.008V9.75Z" />
     </svg>
 );
+
+export const SwatchBookIcon: React.FC<IconProps> = ({ className = "w-8 h-8" }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M9 4.5v15m7.5-15v15M3 10.5h18M3 15h18" />
+  <rect x="3" y="4.5" width="18" height="15" rx="2" ry="2" strokeWidth={1.5} stroke="currentColor" />
+</svg>
+);
